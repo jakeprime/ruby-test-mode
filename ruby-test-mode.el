@@ -609,7 +609,7 @@ FILENAME is tested to t by evaluating the ROOT-PREDICATE."
   "Enable the ruby test mode."
   (ruby-test-mode t))
 
-(add-hook 'ruby-mode-hook 'ruby-test-enable)
+(add-hook 'ruby-base-mode-hook 'ruby-test-enable)
 
 (provide 'ruby-test-mode)
 
